@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const greetButton = document.createElement("button");
-    greetButton.innerText = "Click me for a greeting!";
+    greetButton.innerText = "Greetings!";
     document.body.appendChild(greetButton);
 
     greetButton.addEventListener("click", () => {
-        alert("Hello, welcome to my website!");
+        alert("Hello, welcome to my personal website!");
     });
 });
